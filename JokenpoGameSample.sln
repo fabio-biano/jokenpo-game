@@ -3,18 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokenpoGameSample.Api", "src\JokenpoGameSample.Api\JokenpoGameSample.Api.csproj", "{F255A7B5-B877-438D-AEAC-2050FFCEFD19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JokenpoGameSample.Api", "src\JokenpoGameSample.Api\JokenpoGameSample.Api.csproj", "{F255A7B5-B877-438D-AEAC-2050FFCEFD19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokenpoGameSample.Domain", "src\JokenpoGameSample.Domain\JokenpoGameSample.Domain.csproj", "{D3EDF548-041B-4429-8ED3-90E703C82806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JokenpoGameSample.Domain", "src\JokenpoGameSample.Domain\JokenpoGameSample.Domain.csproj", "{D3EDF548-041B-4429-8ED3-90E703C82806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokenpoGameSample.UnityTests", "tests\JokenpoGameSample.UnityTests\JokenpoGameSample.UnityTests.csproj", "{8FFB5C4C-15FE-45FB-AC54-318D1DBC2B7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JokenpoGameSample.UnityTests", "tests\JokenpoGameSample.UnityTests\JokenpoGameSample.UnityTests.csproj", "{8FFB5C4C-15FE-45FB-AC54-318D1DBC2B7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokenpoGameSample.Mobile", "src\JokenpoGameSample.Mobile\JokenpoGameSample.Mobile.csproj", "{66C08F2F-CED0-40A9-A0CC-4FDB1945D9CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JokenpoGameSample.Mobile", "src\JokenpoGameSample.Mobile\JokenpoGameSample.Mobile.csproj", "{66C08F2F-CED0-40A9-A0CC-4FDB1945D9CE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7151E19A-6D2D-4D84-99D7-E8F3E6275ADA}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "JokenpoGameSample.Web", "src\JokenpoGameSample.Web\JokenpoGameSample.Web.esproj", "{7A9B900F-AFC6-4E64-974F-F09E614009AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,12 @@ Global
 		{66C08F2F-CED0-40A9-A0CC-4FDB1945D9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66C08F2F-CED0-40A9-A0CC-4FDB1945D9CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66C08F2F-CED0-40A9-A0CC-4FDB1945D9CE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7A9B900F-AFC6-4E64-974F-F09E614009AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9B900F-AFC6-4E64-974F-F09E614009AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9B900F-AFC6-4E64-974F-F09E614009AF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7A9B900F-AFC6-4E64-974F-F09E614009AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9B900F-AFC6-4E64-974F-F09E614009AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9B900F-AFC6-4E64-974F-F09E614009AF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
